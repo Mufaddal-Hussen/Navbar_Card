@@ -7,58 +7,388 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Vauld</title>
+   <link rel="stylesheet" href="index.css">
+        <title>Vauld</title>
 </head>
 
 <body>
+    <!-- NavBAr  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Vauld</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Wallet</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Invest
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <a class="navbar-brand" href="#">Vauld</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img
+                                src="C:\Users\Dell\Desktop\Day2 Task\images/dashboard_active.svg" alt="Not">
+                            Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img href="#"
+                                src="C:\Users\Dell\Desktop\Day2 Task\images/wallet_active.svg" alt="Not">Wallet</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img href="#" src="C:\Users\Dell\Desktop\Day2 Task\images/pro_active.svg" alt="Not">Invest
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Fixed Deposits</a></li>
+                            <li><a class="dropdown-item" href="#">AIP</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><img href="#"
+                                src="C:\Users\Dell\Desktop\Day2 Task\images/exchange_active.svg" alt="Not">Exchange</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Instant Buy & Sell</a></li>
+                                    <li><a class="dropdown-item" href="#">Instant Swap</a></li>
+                                    <li><a class="dropdown-item" href="#">Pro Trading</a></li>
+        
+                                </ul>
+                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#"><img href="#"
+                                src="C:\Users\Dell\Desktop\Day2 Task\images/history_active.svg" alt="Not">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#"><img href="#"
+                                src="C:\Users\Dell\Desktop\Day2 Task\images/ref-icon-active.svg" alt="Not">Refferal</a>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ">Exchange</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">History</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Refferal</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+                <form class="d-flex justify-content-around w-25">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                        <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg>
+                </form>
+            </div>
         </div>
-      </nav>
+    </nav>
+
+     <!-- card 1 -->
+     <div class="cards d-flex justify-content-center ">
+
+         
+         <div class="card m-3" style="width: 35rem; ">
+            
+        <div class="card-body ">
+            <div class="card1">Your funds</div>
+            <span class="card11">Secured with<img src="https://www.vauld.com/assets/icons/BITGO.svg" class="d-inline w-10" alt="..."> Bitgo</span>
+            <div class="card2 card-body  w-100 d-flex justify-content-around">
+                <div class="csrd3 w-50  text-center m-3">
+                    <div class="text-info text-md">₹ 0.00</div>
+                    <span class="text-center text-black-50">Total Assest value</span>
+                </div>
+                <div class="csrd4 w-50  text-center m-3">
+                    <div class="text-info text-md">₹ 0.00</div>
+                    <span class="text-center text-black-50">Total intrest eraned</span>
+                </div>
+            </div>
+            
+            <div class="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/inr.svg" class="d-inline w-5" alt="...">INR</a>
+                        
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/btc.svg" class="d-inline w-10" alt="...">BTC</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/eth.svg" class="d-inline w-10" alt="...">ETH</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/usdt.svg" class="d-inline w-10" alt="...">USDT</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/bnb.svg" class="d-inline w-10" alt="...">BNB</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/usdc.svg" class="d-inline w-10" alt="...">USDC</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/sol.svg" class="d-inline w-10" alt="...">SOL</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/ada.svg" class="d-inline w-10" alt="...">ADA</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/xrp.svg" class="d-inline w-10" alt="...">XRP</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/dot.svg" class="d-inline w-10" alt="...">DOT</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/doge.svg" class="d-inline w-10" alt="...">DOGE</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/shib.svg" class="d-inline w-10" alt="...">SHIB</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/matic.svg" class="d-inline w-10" alt="...">MATIC</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/busd.svg" class="d-inline w-10" alt="...">BUSD</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/link.svg" class="d-inline w-10" alt="...">LINK</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/uni.svg" class="d-inline w-10" alt="...">UNI</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/dai.svg" class="d-inline w-10" alt="...">DAI</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/atom.svg" class="d-inline w-10" alt="...">ATOM</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/algo.svg" class="d-inline w-10" alt="...">ALGO</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/ltc.svg" class="d-inline w-10" alt="...">LTC</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/bch.svg" class="d-inline w-10" alt="...">BCH</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/trx.svg" class="d-inline w-10" alt="...">TRX</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/xlm.svg" class="d-inline w-10" alt="...">XRP</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/mana.svg" class="d-inline w-10" alt="...">MANA</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/icp.svg" class="d-inline w-10" alt="...">ICP</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/vet.svg" class="d-inline w-10" alt="...">VET</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/ftt.svg" class="d-inline w-10" alt="...">FTT</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/fil.svg" class="d-inline w-10" alt="...">FIL</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/etc.svg" class="d-inline w-10" alt="...">ETC</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/xtz.svg" class="d-inline w-10" alt="...">XTZ</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/xmr.svg" class="d-inline w-10" alt="...">XMR</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/grt.svg" class="d-inline w-10" alt="...">GRT</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/aave.svg" class="d-inline w-10" alt="...">AAVE</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/eos.svg" class="d-inline w-10" alt="...">EOS</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/cake.svg" class="d-inline w-10" alt="...">CAKE</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/btt.svg" class="d-inline w-10" alt="...">BTT</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/crv.svg" class="d-inline w-10" alt="...">CRV</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/mkr.svg" class="d-inline w-10" alt="...">MKR</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/enj.svg" class="d-inline w-10" alt="...">ENJ</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/zec.svg" class="d-inline w-10" alt="...">ZEC</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/chz.svg" class="d-inline w-10" alt="...">CHZ</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/bat.svg" class="d-inline w-10" alt="...">BAT</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/tusd.svg" class="d-inline w-10" alt="...">TUSD</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/dash.svg" class="d-inline w-10" alt="...">DASH</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/yfi.svg" class="d-inline w-10" alt="...">YFI</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/comp.svg" class="d-inline w-10" alt="...">COMP</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/1inch.svg" class="d-inline w-10" alt="...">1INCH</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/usdp.svg" class="d-inline w-10" alt="...">USDP</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/snx.svg" class="d-inline w-10" alt="...">SNX</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/sushi.svg" class="d-inline w-10" alt="...">SUSHI</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/zrx.svg" class="d-inline w-10" alt="...">ZRX</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/qtum.svg" class="d-inline w-10" alt="...">QTUM</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/acm.svg" class="d-inline w-10" alt="...">ACM</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/adx.svg" class="d-inline w-10" alt="...">ADX</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/agld.svg" class="d-inline w-10" alt="...">AGLD</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/aion.svg" class="d-inline w-10" alt="...">AION</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/akro.svg" class="d-inline w-10" alt="...">AKRO</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/alice.svg" class="d-inline w-10" alt="...">ALICE</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/alpaca.svg" class="d-inline w-10" alt="...">ALPACA</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/alpha.svg" class="d-inline w-10" alt="...">ALPHA</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/cake.svg" class="d-inline w-10" alt="...">CAKE</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/amp.svg" class="d-inline w-10" alt="...">AMP</a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/ankr.svg" class="d-inline w-10" alt="...">ANKR</a>
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
+                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span class="sr-only "></span>
+                    </a>
+                    <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                      <span class="sr-only "></span>
+                    </a>
+                  </div>
+                </div>
+          <h5 class="card-title text-center height: 50px m-5"><img src="https://www.vauld.com/assets/coins/inr.svg" class="d-inline w-10" alt="...">INR 0.00</h5>
+          <p class="card-text text-center text-dark text-sm">Complete KYC & Deposit INR To Buy Crypto</p>
+          <p class="card-text text-center text-black-50 text-sm">KYC Take Only 2 minutes and is auto-approved instantly</p>
+          <a href="#" class="btn btn-primary w-100">Complete KYC To Deposit INR</a>
+        </div>
+      </div>
+      
+
+      <!-- card 2  -->
+      
+   <div class="card m-3" style="width: 25rem; ">
+    <div class="card-body">
+        <div class="card1">Fixed Deposit</div>
+       <div class="d-flex justify-content-between"> <span class="card12 m-3">Amount</span><span class="card12 m-3">Balance 0.00 BTC</span></div>
+    <div class="selecter">
+
+         <select class="shadow p-3 mb-5 bg-white rounded" name="carncy" id="carncy">
+             <option value="btc"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/btc.svg" class="d-inline w-10" alt="...">BTC</a></option>
+             <option value="saab">Saab</option>
+             <option value="opel">Opel</option>
+             <option value="audi">Audi</option>
+            </select>
+            <input class="w-80 inpt shadow p-3 mb-5 bg-white rounded" type="text" name="" id="" placeholder="Amount">
+            
+    </div>
+
+    <div class="term&btn m-3 d-flex justify-content-center ">
+        <div class="term d-flex-column">
+            <div class="termt">
+                <span>Term</span>
+            </div>
+            <div class="termd">
+                <span class="text-info">30 Days</span>
+            </div>
+
+        </div>
+        <div class="btn d-flex justify-content-center ">
+            <div class="rnwtext termt m-1">
+                <span>Auto Renew</span>
+            </div>
+            <div class="btnt m-1">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input custom-switch" id="customSwitch1">
+                    
+                  </div>
+            </div>
+            <div class="optn text-info m-1">
+                <span>Advanced Options</span>
+
+            </div>
+
+        </div>
+        
+
+    </div>
+    <p class="otrtxt  ">Fixed Deposit Will be renewed on completion</p>
+    <h5 class="card-title text-center height: 50px m-3 text-info">INTEREST 6.70% APY</h5>
+    <p class="card-text text-center text-dark text-sm">Payout Amount BTC 0.00</p>
+    <p class="card-text text-center text-black-50 text-sm">44.444% higher than our base return</p>
+      <a href="#" class="btn btn-primary w-100 btn-lg disabled" >CREATE FIXED DEPOSIT</a>
+      
+    </div>
+</div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+
+
+
+
+
+
+</div>
+
+<script src="index.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 
 </html>
