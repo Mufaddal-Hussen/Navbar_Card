@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-   <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="index.css">
         <title>Vauld</title>
 </head>
 
@@ -82,7 +83,7 @@
      <div class="cards d-flex justify-content-center ">
 
          
-         <div class="card m-3" style="width: 35rem; ">
+         <div class="card m-3" style="width: 35rem; height: 30rem">
             
         <div class="card-body ">
             <div class="card1">Your funds</div>
@@ -313,19 +314,26 @@
 
       <!-- card 2  -->
       
-   <div class="card m-3" style="width: 25rem; ">
+   <div class="card m-3" style="width: 25rem; height: 30rem">
     <div class="card-body">
         <div class="card1">Fixed Deposit</div>
        <div class="d-flex justify-content-between"> <span class="card12 m-3">Amount</span><span class="card12 m-3">Balance 0.00 BTC</span></div>
     <div class="selecter">
 
-         <select class="shadow p-3 mb-5 bg-white rounded" name="carncy" id="carncy">
+         <select class="shadow p-2 mb-3 bg-white rounded" name="carncy" id="carncy">
              <option value="btc"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/btc.svg" class="d-inline w-10" alt="...">BTC</a></option>
-             <option value="saab">Saab</option>
-             <option value="opel">Opel</option>
-             <option value="audi">Audi</option>
+             <option value="saab"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/eth.svg" class="d-inline w-10" alt="...">ETH</a></option>
+             <option value="opel"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/usdt.svg" class="d-inline w-10" alt="...">USDT</a></option>
+             <option value="audi"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/bnb.svg" class="d-inline w-10" alt="...">BNB</a></option>
+             <option value="audi"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/usdc.svg" class="d-inline w-10" alt="...">USDC</a></option>
+             <option value="audi"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/sol.svg" class="d-inline w-10" alt="...">SOL</a></option>
+             <option value="audi"> <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/ada.svg" class="d-inline w-10" alt="...">ADA</a></option>
+             <option value="audi"> <a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/xrp.svg" class="d-inline w-10" alt="...">XRP</a></option>
+             <option value="audi"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/dot.svg" class="d-inline w-10" alt="...">DOT</a></option>
+             <option value="audi"><a href="#" class="btn"><img src="https://www.vauld.com/assets/coins/inr.svg" class="d-inline w-5" alt="...">INR</a></option>
+
             </select>
-            <input class="w-80 inpt shadow p-3 mb-5 bg-white rounded" type="text" name="" id="" placeholder="Amount">
+            <input class="w-80 inpt shadow p-2 mb-3 bg-white rounded" type="text" name="" id="" placeholder="Amount">
             
     </div>
 
@@ -353,19 +361,115 @@
                 <span>Advanced Options</span>
 
             </div>
-
         </div>
-        
-
     </div>
     <p class="otrtxt  ">Fixed Deposit Will be renewed on completion</p>
-    <h5 class="card-title text-center height: 50px m-3 text-info">INTEREST 6.70% APY</h5>
+    <h5 class="card-title text-center height: 50px  text-info">INTEREST 6.70% APY</h5>
     <p class="card-text text-center text-dark text-sm">Payout Amount BTC 0.00</p>
     <p class="card-text text-center text-black-50 text-sm">44.444% higher than our base return</p>
-      <a href="#" class="btn btn-primary w-100 btn-lg disabled" >CREATE FIXED DEPOSIT</a>
+    
+      <a href="#" class="btn btn-primary w-100 btn-lg disabled mt-4" >CREATE FIXED DEPOSIT</a>
       
     </div>
 </div>
+
+
+
+
+<!-- card 3 -->
+
+<div class=" card m-3" style="width: 25rem; height: 30rem">
+    <div class="card-body">
+        <div class="txtsrch d-flex justify-content-between">
+            <div class="card1">Start Trading</div>
+            <div class="srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search card1" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </div>
+
+        </div>
+            <div class="pp d-flex justify-content-between m-2 ">
+                <div class="pairs"><span>Pairs</span></div>
+                <div class="price"><span class="mx-4">Price  </span><span> 24HChange(%)</span></div>
+                
+            </div>
+
+            <div class="all d-flex justify-content-between my-4 shadow-sm  bg-body rounded ">
+                <div class="star">
+                    <i class="bi bi-star m-1 card1"></i>BTC/USDT
+                </div>
+                <div class="prc">43,741.52</div>
+                <div class="cng text-success">2.912%<i class="bi bi-arrow-up-short"></i></div>
+
+            </div>
+            <div class="all d-flex justify-content-between my-4 shadow-sm bg-body rounded">
+                <div class="star">
+                    <i class="bi bi-star m-1 card1"></i>BUSD/USDT
+                </div>
+                <div class="prc">0.9996</div>
+                <div class="cng text-danger">-0.01%<i class="bi bi-arrow-down-short"></i></div>
+
+            </div>
+            <div class="all d-flex justify-content-between my-4 shadow-sm bg-body rounded">
+                <div class="star">
+                    <i class="bi bi-star m-1 card1"></i>SHIB/USDT
+                </div>
+                <div class="prc">0.00003219</div>
+                <div class="cng text-success">12.478%<i class="bi bi-arrow-up-short"></i></div>
+
+            </div>
+            <div class="all d-flex justify-content-between my-4 shadow-sm bg-body rounded">
+                <div class="star">
+                    <i class="bi bi-star m-1 card1"></i>XRP/USDT
+                </div>
+                <div class="prc">0.7948</div>
+                <div class="cng text-success">3.692%<i class="bi bi-arrow-up-short"></i></div>
+
+            </div>
+            <div class="all d-flex justify-content-between my-4 shadow-sm bg-body rounded">
+                <div class="star">
+                    <i class="bi bi-star m-1 card1"></i>ETH/BTC
+                </div>
+                <div class="prc">0.76745</div>
+                <div class="cng text-success">0.986%<i class="bi bi-arrow-up-short"></i></div>
+
+            </div>
+            <div class="all d-flex justify-content-between my-4 shadow-sm bg-body rounded">
+                <div class="star">
+                    <i class="bi bi-star m-1 card1"></i>USDC/USDT
+                </div>
+                <div class="prc">0.9993</div>
+                <div class="cng text-danger ">-0.03%<i class="bi bi-arrow-down-short"></i></div>
+
+            </div>
+            <div class="all d-flex justify-content-between my-4 shadow-sm bg-body rounded">
+                <div class="star">
+                    <i class="bi bi-star m-1 card1"></i>XML/USDT
+                </div>
+                <div class="prc">0.2877</div>
+                <div class="cng text-success">6.674%<i class="bi bi-arrow-up-short"></i></div>
+
+            </div>
+            <div class="all d-flex justify-content-between my-4 shadow-sm bg-body rounded">
+                <div class="star">
+                    <i class="bi bi-star m-1 card1"></i>BTC/USDC
+                </div>
+                <div class="prc">43,889.05</div>
+                <div class=" cng text-success">2.425%<i class="bi bi-arrow-up-short"></i></div>
+
+            </div>
+          
+
+
+
+
+
+      <!-- <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    </div>
+  </div>
 
 
 
