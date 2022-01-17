@@ -51,3 +51,14 @@
   color: #1A488E99;
   font-size: 12px;
 }
+.aba
+{
+  font-size: 15px;
+}
+.tableleft
+{
+  float:left;
+  width: 50rem;
+overflow-y: auto;
+height: 25rem;
+}
