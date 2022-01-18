@@ -14,3 +14,8 @@ items.forEach((el) => {
         next = next.nextElementSibling
     }
 })
+
+function togglePopup()
+{
+    document.getElementById("popup-1").classList.toggle("active");
+}
