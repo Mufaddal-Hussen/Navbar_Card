@@ -140,3 +140,51 @@ height: 25rem;
   /* display: flex;
   align-items: center; */
 }
+.rightKYC
+{
+height: 35rem;
+width:40rem ;
+/* border:  5px solid black;  */
+}
+.arrow-pointer
+{
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  background-color:  #deeff0;
+  
+  border: 2px #deeff0 solid;
+  margin: 5px;
+  font-size: 13px;
+}
+/* .abc
+{
+  height: 300px;
+  width: 300px;
+  box-shadow: black 5px;
+  border: 5px black solid;
+} */
+/* .uploaddcmnt
+{
+  height: 20rem;
+  width: 15rem;
+} */
+.upld
+{
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+.adharupload
+{
+  display: none;
+}
+.passportupload
+{
+  display: none;
+}
+.voteridupload
+{
+  display: none;
+}

@@ -490,21 +490,139 @@
 </div>
 
 
-
+<!-- popup content -->
 
 <div class="popup" id="popup-1">
     <div class="overlay">
     </div>
     <div class="content">
         <div class="close-btn" onclick="togglePopup()" >&times;</div>
-        <div class="txt ">
-
+     <div class="main d-flex justify-content-start m-5">
+        <div class="leftKYC">
+     <div class="txt ">
             <img src="	https://www.vauld.com/assets/img/KYC_s2.svg" alt="" class="text-center m-5">
             <p class="text-center card1">Upload an identity document (Passport, Voters ID, Aadhar Card), and a copy of your PAN card.</p>
             <p class="text-center card1">When cropping your document, please ensure the 4 edges are clearly visible.</p>
         </div>
+    </div>
+        <div class="rightKYC ">
+            <h6>3 Step KYC Process</h6>
+            <p class="card1">Processed Promptly with automated verification</p>
+            <div class="arrows d-flex justify-content-around">
+            <div class="arrow-pointer"> Step 1: Upload Documents</div>
+            <div class="arrow-pointer"> Step 2: Take Selfie</div>
+            <div class="arrow-pointer"> Step 3: Confirm Your Details</div>
+           </div>
+           <label for=""> Select Document Type</label><br>
+           <Select onchange="showUplod()" id="idprof">
+                <option value="" disabled selected>Choose</option>
+                <option value="passport" > passport </option>
+                <option value="Voter Id" >Voter Id</option> 
+                 <option  value="Aadhar Card">Aadhar Card</option>
+               
+           </Select><br>
 
 
+           <div class="adharupload  justify-content-around mt-5" id="adharupload">
+            <div class="upld1">
+            <label for="" class="card1"> Aadhar Card Front</label><br>
+           <div class="upld shadow-sm card1">
+           <input type="file" style="display: none;" id="upld1"><br>
+           <label for="upld1">Select File</label><br>
+          <h1> <i class="bi bi-card-list"></i></h1>
+           </div>
+             </div> 
+             <div class="upld2">
+           <label for="" class="card1" > Aadhar Card Back</label><br>
+           <div class="upld shadow-sm card1">
+           <input type="file" style="display: none;" id="upld2"><br>
+           <label for="upld2">Select File</label><br>
+           <h1> <i class="bi bi-card-list"></i></h1>
+           </div>
+            </div>
+            <div class="upld3">
+            <label for="" class="card1"> PanCard Front</label><br>
+           <div class="upld shadow-sm card1">
+            <input type="file" style="display: none;" id="upld3"><br>
+            <label for="upld3">Select File</label><br>
+            <h1> <i class="bi bi-card-list"></i></h1>
+            </div>
+            </div>
+    
+    
+            
+        </div>
+
+
+
+
+        <div class="passportupload  justify-content-around mt-5" id="passportupload">
+            <div class="upld1">
+            <label for="" class="card1"> passport Front</label><br>
+           <div class="upld shadow-sm card1">
+           <input type="file" style="display: none;" id="upld1"><br>
+           <label for="upld1">Select File</label><br>
+          <h1> <i class="bi bi-card-list"></i></h1>
+           </div>
+             </div> 
+             <div class="upld2">
+           <label for="" class="card1" > passport Back</label><br>
+           <div class="upld shadow-sm card1">
+           <input type="file" style="display: none;" id="upld2"><br>
+           <label for="upld2">Select File</label><br>
+           <h1> <i class="bi bi-card-list"></i></h1>
+           </div>
+            </div>
+            <div class="upld3">
+            <label for="" class="card1"> PanCard Front</label><br>
+           <div class="upld shadow-sm card1">
+            <input type="file" style="display: none;" id="upld3"><br>
+            <label for="upld3">Select File</label><br>
+            <h1> <i class="bi bi-card-list"></i></h1>
+            </div>
+            </div>
+    
+    
+            
+        </div>
+
+
+        <div class="voteridupload justify-content-around mt-5" id="voteridupload">
+            <div class="upld1">
+            <label for="" class="card1"> voter Id Card Front</label><br>
+           <div class="upld shadow-sm card1">
+           <input type="file" style="display: none;" id="upld1"><br>
+           <label for="upld1">Select File</label><br>
+          <h1> <i class="bi bi-card-list"></i></h1>
+           </div>
+             </div> 
+             <div class="upld2">
+           <label for="" class="card1" > voter Id  Card Back</label><br>
+           <div class="upld shadow-sm card1">
+           <input type="file" style="display: none;" id="upld2"><br>
+           <label for="upld2">Select File</label><br>
+           <h1> <i class="bi bi-card-list"></i></h1>
+           </div>
+            </div>
+            <div class="upld3">
+            <label for="" class="card1"> PanCard Front</label><br>
+           <div class="upld shadow-sm card1">
+            <input type="file" style="display: none;" id="upld3"><br>
+            <label for="upld3">Select File</label><br>
+            <h1> <i class="bi bi-card-list"></i></h1>
+            </div>
+            </div>
+    
+    
+            
+        </div>
+
+           
+    </div>
+
+    </div>
+
+ 
 
 
 
