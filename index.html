@@ -70,7 +70,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
                         <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
                       </svg>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16"  onclick="togglePopup_2()">
                         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                         <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                       </svg>
@@ -552,10 +552,6 @@
     
             
         </div>
-
-
-
-
         <div class="passportupload  justify-content-around mt-5" id="passportupload">
             <div class="upld1">
             <label for="" class="card1"> passport Front</label><br>
@@ -567,10 +563,10 @@
              </div> 
              <div class="upld2">
            <label for="" class="card1" > passport Back</label><br>
-           <div class="upld shadow-sm card1">
+           <div class="upld shadow-sm card1" for="upld2">
            <input type="file" style="display: none;" id="upld2"><br>
            <label for="upld2">Select File</label><br>
-           <h1> <i class="bi bi-card-list"></i></h1>
+           <h1> <label for="upld2" class="point"><i class="bi bi-card-list"></i></label> </h1>
            </div>
             </div>
             <div class="upld3">
@@ -631,6 +627,69 @@
 <h2>This is a pop up page</h2>
     </div> 
 </div>
+<div class="popup-2" id="popup-2">
+    <div class="overlay-2">
+    </div>
+    <div class="content-2">
+        <div class="close-btn" onclick="togglePopup_2()" >&times;</div>
+        <div class="" style="width: 16rem">
+<div class="m-2" style="width: 16rem">
+<h1 class="text-center"><i class="bi bi-person-circle"></i></h1>
+<h4 class="card1 text-center">Hello Mufaddal!</h4>
+<button type="button" class="btn btn-light text-info text-center">COMPLETE KYC</button>
+<button type="button" class="btn btn-light text-info text-center">ENABLE MFA</button>
+</div>
+<div class="card m-2" style="width: 16rem; font-size: 14px;" >
+  
+  <div class="card-body">
+    <h6 class="card-title card1">Invaite friend and start earning</h6>
+    <p class="card-text">Link  <input class="shadow-sm" type="text" name="" value="https://vauld.com/register/2smyk9" style="border: none;"><i class="bi bi-clipboard"></i></p>
+    <p class="card-text">Code  <input class="shadow-sm" type="text" name="" value="2smyk9" style="border: none;"><i class="bi bi-clipboard"></i></p>
+    <a href="#" class="btn btn-primary"><i class="bi bi-share"></i>Share</a>
+  </div>
+</div>
+
+<div class="card m-2" style="width: 16rem;">
+  
+ <div class="card-body">
+
+    <p class="card-text" >
+    <ul style="list-style-type:none; padding-left: 0px; font-size: 12px;"  >
+        <p class="card1">COMING SOON TO INDIA!</p>
+        <li class="text-info">❖ Profit and Loss (PnL) module</li>
+        <li class="text-info">❖ Internal order books with lower fees</li>
+        <li class="text-info">❖ More tokens and networks</li>
+    </ul>
+    </p>
+
+ </div>
+</div>
+
+<div class="card m-2 " style="width: 16rem;">  
+ <div class="card-body " >
+    <i class="bi bi-gear text-info">Setting</i><br>
+    <i class="bi bi-question-circle text-info">Help Center</i><br>
+    <i class="bi bi-box-arrow-right text-danger">Logout</i><br> 
+
+
+
+</div>
+</div>
+</div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 <script src="index.js"></script>
 
